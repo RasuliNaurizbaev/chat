@@ -1,0 +1,30 @@
+h1 {
+    margin: 1rem 0;
+    text-align: center;
+}
+form {
+    display: grid;
+    gap: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+}
+input {
+    padding: 10px;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+input:hover{
+    box-shadow: 0px 0px 20px 0px red;
+}
+button {
+    font-size: 18px;
+    padding: 1rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
